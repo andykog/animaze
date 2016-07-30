@@ -15,7 +15,7 @@ const animazeOpacity = () => animaze({
 
 const animazeScroll = () =>  animaze({
     onTick: { window.scrollTo(0, 200 * v) },
-    duration: 500, // default is 250
+    duration: 500, // default is 240
     ease: k => 0.5 * (1 - Math.cos(Math.PI * k)), // this is default one
 });
 
