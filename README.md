@@ -3,6 +3,8 @@ animaze
 
 Supersmall animation library. [AMD is supported.]
 
+`npm install --save animaze`
+
 ```js
 import animaze from 'animaze';
 
