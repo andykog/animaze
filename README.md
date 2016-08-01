@@ -1,7 +1,7 @@
 animaze
 -------
 
-Supersmall animation library. [AMD is supported.]
+Supersmall animation library. [UMD is supported.]
 
 `npm install --save animaze`
 
