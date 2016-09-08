@@ -1,4 +1,4 @@
-export default ({ tick, onTick, duration = 240, ease = k => 0.5 * (1 - Math.cos(Math.PI * k)) }) => {
+module.exports = ({ tick, onTick, duration = 240, ease = k => 0.5 * (1 - Math.cos(Math.PI * k)) }) => {
   tick = tick || onTick;
   const startTime = window.performance && window.performance.now() || Date.now();
   let frame;

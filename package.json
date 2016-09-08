@@ -1,6 +1,6 @@
 {
   "name": "animaze",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Super tiny animation library",
   "main": "lib/animaze.js",
   "scripts": {
